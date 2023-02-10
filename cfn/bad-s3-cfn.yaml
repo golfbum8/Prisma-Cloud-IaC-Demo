@@ -52,3 +52,5 @@ Resources:
       Tags:
         - Key: Name
           Value: !Sub "${AWS::AccountId}-${CompanyName}-${Environment}-financials"
+      VersioningConfiguration:
+        Status: Enabled
